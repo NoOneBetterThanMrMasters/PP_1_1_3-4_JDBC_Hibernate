@@ -13,8 +13,8 @@ public class Util {
     private static final String URL = "jdbc:mysql://localhost:3306/mysql";
     private static final String USER = "root";
     private static final String PASSWORD = "Ca:m5(d-_Fzba*6";
-    private static Connection connection;
     private static final SessionFactory SESSION_FACTORY;
+    private static Connection connection;
 
     static {
         try {
