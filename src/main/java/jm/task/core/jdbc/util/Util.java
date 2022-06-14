@@ -46,7 +46,7 @@ public class Util {
             throw new ExceptionInInitializerError(e);
         }
     }
-    public SessionFactory getSessionFactory() {
+    public static SessionFactory getSessionFactory() {
         return SESSION_FACTORY;
     }
 }
